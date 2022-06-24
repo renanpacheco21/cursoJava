@@ -42,5 +42,9 @@ public class OperadoresAritimeticos {
         System.out.println(x3);
         Long x4 = Math.round(4.49); //arredonda corretamente = 4
         System.out.println(x4);
+        double x5 = Math.random(); //gera nº aleatório entre 0 e 1
+        x5 = Math.round(1 + Math.random()*(10-1)); //gera nº aleatório entre 1 e 10 inteiro
+
+        System.out.println(x5);
     }
 }
