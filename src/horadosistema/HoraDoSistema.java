@@ -21,5 +21,4 @@ public class HoraDoSistema {
         //System.out.println("Você tem "+ idade + " anos");
         JOptionPane.showMessageDialog(null,"Você tem "+ idade + " anos");
     }
-
 }
