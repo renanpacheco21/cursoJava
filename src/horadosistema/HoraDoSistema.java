@@ -8,12 +8,12 @@ public class HoraDoSistema {
     public static void main(String[] args) {
         Date relogio = new Date();
         System.out.println("A hora do sistema é");
-        System.out.println(relogio.toString());
+        System.out.println(relogio);
 
         String anoNasc = JOptionPane.showInputDialog("Digite o ano de nascimento: ");
         Calendar calendario = Calendar.getInstance();
-        Integer idade = calendario.get(Calendar.YEAR) - Integer.parseInt(anoNasc);
-        Integer anoNasci = Integer.parseInt(anoNasc);
+        int idade = calendario.get(Calendar.YEAR) - Integer.parseInt(anoNasc);
+        int anoNasci = Integer.parseInt(anoNasc);
 
         if(anoNasci >= 1 && anoNasci <= 2023){
             JOptionPane.showMessageDialog(null,"Você tem "+ idade + " anos");
