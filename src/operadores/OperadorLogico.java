@@ -35,5 +35,8 @@ public class OperadorLogico {
         String resIdade = ((idade>=16 && idade<=18) || (idade >= 70))?"OPCIONAL":"OBRIGATÓRIO";
         JOptionPane.showMessageDialog(null,"CONFORME SUA IDADE O VOTO É " + resIdade);
 
+        //OBS: operador ternário só trás 2 opções
+        //(idades menores de 16 não está verificando corretamente)
+
     }
 }
