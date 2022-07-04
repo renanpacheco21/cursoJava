@@ -20,7 +20,7 @@ public class CondicionalRelacionada {
         if(idade < 16){
             System.out.println("Você não atigiu a idade mínima permitida");
         } else {
-            if(idade >= 16 && idade < 18 || idade > 70){
+            if((idade >= 16 && idade < 18) || idade > 70){
                 System.out.println("O voto é opcional");
             } else {
                 System.out.println("O voto é obrigatório");
