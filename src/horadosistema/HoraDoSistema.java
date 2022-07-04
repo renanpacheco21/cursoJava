@@ -13,6 +13,7 @@ public class HoraDoSistema {
         String anoNasc = JOptionPane.showInputDialog("Digite o ano de nascimento: ");
         Calendar calendario = Calendar.getInstance();
         int idade = calendario.get(Calendar.YEAR) - Integer.parseInt(anoNasc);
+        System.out.println(idade);
         int anoNasci = Integer.parseInt(anoNasc);
 
         if(anoNasci >= 1 && anoNasci <= 2023){
