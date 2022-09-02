@@ -1,6 +1,6 @@
 package estruturarepeticao;
 
-public class EstruturaRepeticao3 {
+public class EstruturaFor {
 
     public static void main(String[] args) {
 

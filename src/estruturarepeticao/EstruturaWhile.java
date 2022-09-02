@@ -1,6 +1,6 @@
 package estruturarepeticao;
 
-public class EstruturaRepeticao {
+public class EstruturaWhile {
 
     public static void main(String[] args) {
 
